@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+body {
+  align-items: center;
+  background-image: radial-gradient(circle, #20006b, #140a65, #08105e, #011456, #00164e, #001a4a, #001d46, #001f41, #00233e, #002636, #00272d, #002724);
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-family: swap;
+  height: inherit;
+  justify-content: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.wrapper {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  color: #232323;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  flex-basis: 400px;
+  height: 575px;
+  padding: 20px 35px;
+}
+.wrapper p {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #34e0be;
+}
+.wrapper .screen {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8);
+  color: #232323;
+  font-size: 35px;
+  font-weight: 700;
+  overflow: auto;
+  padding: 20px;
+  text-align: right;
+  width: 326px;
+}
+
+.calc-button-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+}
+.calc-button-row .calc-button {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  color: #232323;
+  flex-basis: 20%;
+  font-family: inherit;
+  font-size: 24px;
+  height: 65px;
+  transition: all 0.3s;
+}
+.calc-button-row .calc-button:hover {
+  background-color: inherit;
+}
+.calc-button-row .calc-button:last-child {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  color: #232323;
+  background: #d72880;
+}
+.calc-button-row .calc-button:last-child:hover {
+  background-color: inherit;
+  color: inherit;
+}
+.calc-button-row .calc-button:active {
+  background-color: #ffef78;
+}
+.calc-button-row .double {
+  flex-basis: 47%;
+}
+.calc-button-row .triple {
+  flex-basis: 73%;
+}
